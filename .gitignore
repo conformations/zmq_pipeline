@@ -1,5 +1,9 @@
 # Binaries
-broker sink source splitter
+broker
+sink
+source
+splitter
+worker
 
 # Backups
 Makefile~
