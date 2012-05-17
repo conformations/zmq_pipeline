@@ -1,3 +1,11 @@
+# Binaries
+broker sink source splitter
+
+# Backups
+Makefile~
+*.cc~
+*.h~
+
 # Compiled Object files
 *.slo
 *.lo
