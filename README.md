@@ -22,7 +22,6 @@ Once complete, the binaries can be built by executing "make".
 
 $ make
 
-
 Running:
 To run the example, execute the following commands (in any order).
 
