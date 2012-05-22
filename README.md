@@ -1,9 +1,10 @@
 zmq_pipeline
 ============
 
-Illustrates the use of a multiple producer, multiple consumer paradigm in 0mq.
-One or more `source` processes transmit requests through a Queue device to one
-or more `worker` processes. Results are sent to a `sink` process.
+Illustrates the use of a multiple producer, multiple consumer paradigm in 0mq
+(http://en.wikipedia.org/wiki/Producer-consumer_problem). One or more `source`
+processes transmit requests through a Queue device to one or more `worker`
+processes. Results are sent to a `sink` process.
 
 Because this example was excised from a production system, it has a small
 number of dependencies that are helpful, but not strictly speaking required.
