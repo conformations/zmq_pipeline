@@ -22,16 +22,16 @@ To build the example, ensure that the settings in `Makefile` reflect your
 local installation. The relevant variables are CC, CFLAGS, and LDFLAGS.
 Once complete, the binaries can be built by executing "make".
 
-$ make
+* make
 
 Running
 -------------
 To run the example, execute the following commands (in any order).
 
-$ ./broker
-$ ./sink
-$ ./worker
-$ ./source
+* ./broker
+* ./sink
+* ./worker
+* ./source
 
 If multiple producers (sources) or consumers (workers) are desired,
 simply start additional processes. Currently, only a single broker
