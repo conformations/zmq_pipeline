@@ -7,10 +7,12 @@ worker
 
 # Backups
 Makefile~
+*.py~
 *.cc~
 *.h~
 
 # Compiled Object files
+*.pyc
 *.slo
 *.lo
 *.o
