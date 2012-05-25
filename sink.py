@@ -6,7 +6,6 @@ import zmq
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--in', default = 'tcp://*:8002', help = 'Incoming socket')
-    parser.add_argument('--io_threads', default = 1, help = 'Number of threads dedicated to I/O operations')
     options = vars(parser.parse_args())
 
     context = zmq.Context()
