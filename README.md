@@ -4,7 +4,8 @@ zmq_pipeline
 Illustrates the use of a multiple producer, multiple consumer paradigm in 0mq
 (http://en.wikipedia.org/wiki/Producer-consumer_problem). One or more `source`
 processes transmit requests through a Queue device to one or more `worker`
-processes. Results are sent to a `sink` process.
+processes. Results are sent to a `sink` process. Components are implemented
+in both C++ and Python.
 
 Because this example was excised from a production system, it has a small
 number of dependencies that are helpful, but not strictly speaking required.
@@ -28,11 +29,12 @@ Running
 -------------
 To run the example, execute the following commands (in any order).
 
-* ./broker
-* ./sink
+* ./broker (or ./broker.py)
+* ./source (or ./source.py)
+* ./sink   (or ./sink.py)
 * ./worker
-* ./source
 
 If multiple producers (sources) or consumers (workers) are desired,
 simply start additional processes. Currently, only a single broker
 and sink are supported.
+
